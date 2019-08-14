@@ -10,5 +10,5 @@ const db = pgp({
 
 
 module.exports = db;
-console.log(`working`)
+// console.log(`working`)
 
