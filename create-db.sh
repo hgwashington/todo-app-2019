@@ -1,3 +1,3 @@
-createdb todo-app
-psql -f schema.sql todo-app
-psql -f seed.sql todo-app
+createdb todo-app-2019
+psql -f schema.sql todo-app-2019
+psql -f seed.sql todo-app-2019
