@@ -31,7 +31,7 @@ const port = 3333;
 app.get('/', (req, res) => {
     res.render('index', {
         locals: {
-            message: "It is time for lunch"
+            message: "<h1>Does this thing work</h1>"
         },
         partials: {
             navbar: './navbar',
