@@ -57,7 +57,7 @@ app.get('/profile', (req,res) => {
      const theUser = await User.getOne(userID)
     res.render('todos', {
         locals: {
-            todos: theUser.todos
+            todos: theUser.todos || []
         },
         partials: {
             navbar:'navbar',
